@@ -13,6 +13,7 @@ import {AdminComponent} from './components/admin/admin.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {ToastrModule} from "ngx-toastr";
 import { LogoutComponent } from './components/logout/logout.component';
+import { UnsecureUserComponent } from './components/unsecure-user/unsecure-user.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LogoutComponent } from './components/logout/logout.component';
     HomeComponent,
     UserComponent,
     AdminComponent,
-    LogoutComponent
+    LogoutComponent,
+    UnsecureUserComponent
   ],
   imports: [
     BrowserModule,
